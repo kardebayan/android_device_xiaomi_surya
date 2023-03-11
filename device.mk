@@ -111,6 +111,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_huaxing_fw.bin:recovery/root/vendor/firmware/novatek_ts_huaxing_fw.bin \
+    vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_huaxing_mp.bin:recovery/root/vendor/firmware/novatek_ts_huaxing_mp.bin \
+    vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_fw.bin:recovery/root/vendor/firmware/novatek_ts_tianma_fw.bin \
+    vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:recovery/root/vendor/firmware/novatek_ts_tianma_mp.bin
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.multihal
