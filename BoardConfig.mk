@@ -17,8 +17,6 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
-ODM_MANIFEST_SKUS += surya
-ODM_MANIFEST_SURYA_FILES := $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
