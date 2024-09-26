@@ -33,6 +33,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Screen density
 TARGET_SCREEN_DENSITY := 400
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2023-06-01
 
