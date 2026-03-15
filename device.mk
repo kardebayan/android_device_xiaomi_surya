@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.multihal
+    android.hardware.sensors-service.xiaomi-multihal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
